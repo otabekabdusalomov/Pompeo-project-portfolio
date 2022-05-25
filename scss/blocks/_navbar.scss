@@ -1,1 +1,35 @@
-//BU YERDA SAYTIMIZNI NAVBAR QISMIGA ISHLOV BERILADI
+.sitenav{
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    &__item + &__item {
+        margin-left: 40px;
+    }
+    &__link{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #6C6C6C; 
+    }
+    &__link-one{
+        color: #AC1313;
+    }
+    &__link:hover{
+        opacity: 0.8;
+    }
+    &__link:active{
+        opacity: 0.4;
+    }
+    &__span{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center; 
+        color: #000000;
+    }
+}
