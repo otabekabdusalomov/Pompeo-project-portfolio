@@ -1,1 +1,47 @@
-//BU YERDA SYTIMIZNI HERO QISMIGA ISHLOV BERILADI
+.hero{
+    padding-top: 127px;
+    background-image: url(../img/grop.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    // &__box{
+    //     max-width: 576px;
+    // }
+    
+    &__img{
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 68px;
+        color: #AC1313;
+    }
+    &__span{
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #D77474;
+        padding-bottom: 12px;
+    }
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #000000;
+        padding-bottom: 14px;
+    }
+    &__desc{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px; 
+        color: #6C6C6C;
+        padding-bottom: 51px;
+    }
+}
